@@ -7,6 +7,7 @@ import java.awt.event.KeyEvent;
 public class Board {
     public static void main(String[] args) {
         //开启一个线程，所有Swing组件必须由时间分派线程进程配置，线程鼠标点击和按键控制转移到用户接口组件。
+
         EventQueue.invokeLater(new Runnable() {
             //匿名内部类，是一个Runnable接口的实例，实现了run方法
             @Override

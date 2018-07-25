@@ -60,6 +60,7 @@ public class Snake {
     /**
      * 此方法用来初始化蛇，让蛇变成一条竖直3格长度，方向向上的随机位置新蛇
      */
+
     public void reset() {
         snakeBody.clear();
         // 清空链表
