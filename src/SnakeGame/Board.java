@@ -47,7 +47,7 @@ public class Board {
                     while (true)
                     {
                         BoardComponent bc = new BoardComponent();
-                        bc.setSnk(snk);
+                        bc.setSnake(snk);
                         add(bc);
                         //创建JComponent的实例，将上面创建的蛇对象传入
                         MyKeyEventPostProcessor mke = new MyKeyEventPostProcessor();
@@ -82,7 +82,7 @@ public class Board {
         private static final int YOffset = (Height - Row * TileHeight) / 2;
         //从Configure文件中读取的游戏数据
         private Snake snk;
-        public void setSnk(Snake snk) {
+        public void setSnake(Snake snk) {
             this.snk = snk;
         }
         /**
